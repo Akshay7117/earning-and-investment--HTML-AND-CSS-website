@@ -1,0 +1,125 @@
+*{
+    margin :0;
+    padding :0;
+    font-family : 'century gothic';
+    box-sizing: border-box;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("stocks\ bg\ image.jpg");
+    height :205vh;
+    background-size:cover;
+    background-position: center;
+}
+.stocks h1{
+    font-size: 60px;
+    color: coral;
+}
+.stocks p{
+    font-size:25px ;
+    color: greenyellow;
+}
+.stocks img{
+    border-color: black;
+    border-radius: 50px ;
+    margin-right: 45px;
+    height :40vh;
+}
+.stocks h2{
+    font-size: 30px;
+    color: rgb(5, 173, 252);
+}
+.stocks p1{
+    font-size:25px;
+    color:greenyellow;
+}
+.stocks h3{
+    font-size: 30px;
+    color: rgb(236, 240, 235);
+}
+.stocks p2{
+    font-size:25px;
+    color:greenyellow;
+}
+.stocks f{
+    font-size: 25px;
+    text-align: right;
+    padding: 130px;;
+    color: rgb(236, 240, 235);
+}
+.stocks h4{
+    font-size: 30px;
+    color: rgb(11, 177, 253);
+}
+.stocks ol{
+    font-size:20px;
+    color:greenyellow;
+    text-align:left;
+    padding: 30px;
+}
+.stocks h5{
+    font-size: 30px;
+    color: rgb(5, 173, 252);
+}
+.stocks ul{
+    float :right;
+    list-style-type: none;
+}
+ul li {
+    padding: 18px;
+    display : inline-block;
+}
+ul li:hover{
+    box-shadow: 0 0 60px 30px silver;
+}
+.stocks p3{
+    font-weight: bold;
+    text-align:right;
+    font-size:25px;
+    color:greenyellow;
+}
+.stocks h6 {
+    font-weight: bold;
+    font-size: 30px;
+    color :yellow;
+}
+.table h1{
+    font-size: 45px;
+    font-weight: bold;  
+}
+.record p{
+    align-content: left;
+    padding-left: 25px;
+    padding-right: 10px;
+    font-size: 30px;
+}
+.gif{
+    border-radius: 30px;
+    padding-right: 10px;
+}
+.table tr:hover{
+    background-color :greenyellow;
+}
+.table th{
+    font-size: 18px;
+    padding : 10px;
+}
+.th,td{
+    padding:10px;
+}
+.low p{
+    padding-left: 20px;
+    padding-right: 20px;
+     font-size:30px;
+}
+.pic{
+    padding-left:450px;
+}
+.pic:hover{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url("coins\ stock\ image.jpg");
+}
+.q{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    color:skyblue;
+}

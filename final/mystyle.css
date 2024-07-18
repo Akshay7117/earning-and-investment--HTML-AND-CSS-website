@@ -1,0 +1,131 @@
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+.main ul{
+    float: right;
+    margin-top: 25px;
+}
+.main ul li{
+    display: inline-block;
+}
+.main ul li a{
+    text-decoration: none;
+    color: crimson;
+    padding: 5px 20px;
+    transition: 0.5s ease;
+}
+.main ul li a:hover{
+    background-color: crimson;
+}
+.types{
+    width: 80%;
+    margin:auto ;
+    text-align: center;
+    
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.types-col{
+    flex-basis: 31%;
+    background: #f7f7f7;
+    border-radius: 10px;
+    margin: bottom 5%; ;
+    padding:20px 12px ;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h3{
+    text-align:center ;
+    font-weight: 600;
+    margin:10px;
+}
+h2{
+    text-align:center ;
+}
+.types-col:hover{
+    box-shadow: 0 0 20px 0px rgba(7, 7, 7, 0.2);
+}
+.title-text{
+    text-align: center;
+    padding-bottom: 70px;
+}
+h1{
+    font-size: 30px;
+}
+.benifit-box{
+    width:80% ;
+    margin: auto;
+    display:flex ;
+    flex-wrap: wrap;
+    align-items:center ;
+    text-align:center ;
+}
+.benifits-img{
+    flex-basis: 50%;
+    margin: auto;
+}
+.benifits-img img{
+    width: 70%;
+    border-radius: 10px;
+}
+.platforms{
+    background-image:url("ending.jpg");
+    background-size: cover;
+    background-position:center ;
+    color:#efefef ;
+    background-attachment:fixed ;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.platforms h1{
+    text-align: center;
+    color:#ffffff ;
+    padding-bottom: 10px;
+}
+.platforms h1::after
+{
+content:'';
+background:#efefef ;
+display:block ;
+height: 3px;
+width:100%;
+margin:20px auto 5px ;
+}
+.link h2{
+    font-size: 5em;
+    font-family: serif;
+    color: transparent;
+    text-align: center;
+    animation: effect 2s linear infinite;
+}
+
+@keyframes effect {
+    0% {
+        background: linear-gradient(
+            #050505, #848684);
+        -webkit-background-clip: text;
+    }
+
+    100% {
+        background: linear-gradient(
+            #ffffff, #0d0d0e);
+        -webkit-background-clip: text;
+    }
+}
+.platforms p{
+    text-align: center;
+}
+.platforms b{
+    text-align: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }

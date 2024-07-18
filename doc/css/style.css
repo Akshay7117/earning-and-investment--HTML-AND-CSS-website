@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+header{
+    background-image: url(pic.PNG);   
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: disc;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid rgb(190, 48, 171) transparent;
+    transition: 0.5s ease;
+}
+ul li a:hover{
+    background-color: blueviolet;
+    color:darkblue;
+}
+ul li.current a{
+    background-color: blueviolet;
+    color:darkblue;
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+.title{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.button{
+    position: absolute;
+    top: 85%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 3px solid black;
+    padding: 10px 30px;
+    color:rgb(0,0,0)
+    text-decoration: none;
+}
+
+.intro img{
+    border-color: black;
+    border-radius: 20px ;
+    margin-right: 20px;
+}
+
+.intro p{
+    margin-left: 30px;
+    font-size: 20px;
+    color: palevioletred;
+}
+.intro h2{
+    margin-left: 30px;
+}
+
+.Earnings p{
+    margin-left: 30px;
+    font-size: 20px;
+    color: orangered;
+}
+body{
+    background: cyan;
+  }
+.cards{
+    width: 12.5%;
+    background-color: white;
+    border-radius: 40.5px;
+    margin: 10px;
+    box-shadow: 5px 5px 10px black;
+    display: inline-block;
+  }
+  .cards title{
+    font-size:5px;
+    font-style:italic;
+    color:chocolate;
+  }
+  
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical
+  }
+  
+  input[type=submit] {
+    background-color: black;
+    color: pink;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: pink;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: cyan;
+    padding: 20px;
+  }

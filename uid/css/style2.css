@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../headpic.jpg); 
+    height: 100vh;
+    background-size: cover;
+    background-position: center;  
+}
+header h1{
+    padding-top:23%;
+    font-size: 70px;
+    color: aqua;
+    ;
+}
+a{
+    margin-left: 750px;
+    color: black;
+    font-size: 40px;
+}
+i{
+    color:black;
+    font-size: 40px;
+}
+span{
+    color: black;
+    font-size: 40px;
+}
+body .emerg{
+    margin-left: 70px;
+}
+body .emerg:hover{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+body h2{
+    color:black;
+    font-size: 30px;
+    background-color: darkturquoise;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.before{
+    margin-right: 30px;
+    font-size: 23px;
+    margin-left: 30px;
+    background-color: pink;
+    border-radius: 10px;
+}
+.keep{
+    font-size: 30px;
+    margin-right: 50px;
+}
+.emerg_text{
+    font-size: 20px;
+    margin-right: 30px;
+}
+.buss{
+    color:red;
+    font-size: 30px;
+    background-color: aliceblue;
+}
+.ppp{
+    margin-right: 60px;
+    margin-top: 20px;
+}
+.ppp:hover{
+    box-shadow: 0 0 150px 0px aqua;
+}
+.abc{
+    margin-left: 30px;
+    font-size: 20px;
+    color:deeppink;
+    background-color:palegreen;
+    margin-right: 30px;
+}
+.container {
+    position: relative;
+    width: 50%;
+}
+.imgs{
+    width: 100%;
+    height: auto;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:deeppink;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transition: .3s ease;
+}
+.container:hover .overlay {
+    transform: scale(1);
+}
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}

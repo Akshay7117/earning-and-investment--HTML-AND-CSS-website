@@ -1,0 +1,103 @@
+
+.bitcoin{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("bitcoin\ bg\ image.jpg");
+    height :90vh;
+    background-size:cover;
+    background-position: center;
+}
+.Eth{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("eth\ bg.jpeg");
+    height :90vh;
+    background-size:cover;
+    background-position: center;
+}
+
+.BNB{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("bnb\ bg.jpg");
+    height :90vh;
+    background-size:cover;
+    background-position: center;
+}
+
+.USDT{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("USDT\ bg\ image.jpg");
+    height :90vh;
+    background-size:cover;
+    background-position: center;
+}
+
+.crypto h1{
+    font-size:40px;
+    color: coral;
+    background-color: turquoise;
+    position: sticky;
+    top:0px;
+}
+.crypto p{
+    text-align: left;
+    font-size:30px;
+    position: relative;
+}
+.crypto img{
+    border-color:rgb(7, 183, 253);
+    border-radius: 50px;
+}
+.crypto img:hover{
+    box-shadow: 0 0 10px 10px rgb(6, 235, 243);
+}
+.crypto p1{
+    font-size: 30px;
+    text-align: left;
+}
+.crypto h2{
+    font-size: 35px;
+    color:honeydew;
+    background-color: grey;
+}
+.crypto h3{
+    font-size: 40px;
+    color: gold;
+}
+.bitcoin p{
+    color:white;
+    text-align:center;
+}
+.Eth{
+    color: white;
+}
+.BNB{
+    color: white;
+}
+.USDT{
+    color: white;
+}
+
+.v{
+    font-weight: bold;
+    text-align: center;
+    color : rgb(47, 161, 255);
+    font-size: 40px;
+}
+.crypto P2{
+    font-size:30px;
+    color:black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.crypto apps{
+    float :left;
+}
+.crypto apps {
+    padding:50px;
+    display : inline-block;
+}
+.crypto apps:hover{
+    box-shadow: 0 0 60px 30px silver;
+    box-sizing: content-box;
+}
+.crypto h4,h5{
+    font-size:  30px;
+    color:white;
+    background-color: rgb(188, 247, 154);
+}
